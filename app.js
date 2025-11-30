@@ -57,7 +57,7 @@ async function action () {
 
         const data = await response.json();
         const adviceContent = data.slip.advice
-        const adviceSpace = document.querySelector('h2')
+        const adviceSpace = document.querySelector('.quotes-container p')
         adviceSpace.innerHTML = adviceContent
 
     }
